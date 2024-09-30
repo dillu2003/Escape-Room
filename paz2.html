@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 2;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            position: relative;
+            display: flex;
+            height: 100px;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 3px solid black;
+            background-color: green;
+        }
+        .head h1{
+            color: lightblue;
+        }
+        .nav{
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+        .nav .foot{
+            border: 3px solid black;
+            padding: 4px;
+            border-radius: 15px;
+            background-color: lightblue;
+            height: 50px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            width: 150px;
+        }
+        #log{
+            list-style: none;
+            position: absolute;
+            right: 8px;
+            bottom: 0;
+            background-color: white;
+            border: 1px solid black;
+
+        }
+        .cen{
+            position: relative;
+            height: 150px;
+            width: 100%;
+            border: 3px solid black;
+            background-image: url('./binary.jpg');
+            background-attachment: fixed;
+        }
+        .cen h1{
+            height: 50px;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 25px;
+            left: 25%;
+            background-color: white;
+            border: 2px solid black;
+        }
+        .con1{
+            padding-top: 50px;
+            padding-bottom: 35px;
+            text-align: center;
+        }
+        .con1 p{
+            display: inline-block;
+            vertical-align: middle;
+            width: 45%;
+            text-align: justify;
+            font-size: 20px;
+        }
+        .con1 img{
+            display: inline-block;
+            vertical-align: middle;
+            width: 45%;
+        }
+        .im1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .im1 #rado{
+            height: 800px;
+            width: 95%;
+        }
+        .con2{
+            padding: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .con2 a{
+            padding: 10px;
+            height: auto;
+            width: auto;
+            border: 4px solid black;
+            font-size: xx-large;
+            text-decoration: none;
+            border-radius: 20px;
+            color: black;
+            background-color: lightblue;
+        }
+        .con2 a:hover{
+            color: brown;
+            background-color: yellow;
+            cursor: pointer;
+        }
+        .nav .foot:hover{
+            cursor: pointer;
+            color: white;
+            background-color: orange;
+        }
+        a:link{
+            text-decoration: none;
+        } 
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 style="font-family: algerian;">ESCAPE FROM TECH</h1>
+        <div class="nav">
+            <a href="./index.html" class="foot"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="./info.html" class="foot" target="_self"><i class="fa-solid fa-circle-info"></i>Information</a>
+            <a href="./search.html" class="foot"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+        </div>
+    </div>
+    <br>
+    <div class="cen">
+        <h1 id="center" style="font-family: algerian;">ESCAPE FROM TECH</h1>
+    </div>
+    <div class="con1">
+        <p>"Thank you for rescueing me from my prison, now let's get out of here." The door opened and Trent walked out. <br>
+            "Why were you in a prison cell?" Ryan asked. <br>
+            "I don't know, I was just always in a prison cell I guess." <br>
+            Trent started walking up to a pillar, he lead the way to a deeper part into the cave system. Ryan followed him. <br>
+            "Where are we going?" Ryan asked. <br>
+            "Wherever this leads us." Trent answered. <br>
+            A while later, they ended up at a dead end, but there was a small stone pillar and Trent had noticed it. <br>
+            "What's that?" Ryan said, he pointed up to the wall next to the pillar. It had writing on it.</p>
+        <img src="./paz2_r1.png" alt="noimg">
+    </div>
+    <h1 style="text-align: center; font-size: 50px;">Help Ryan crack the riddle!</h1> <br>
+    <div class="im1">
+        <img id="rado" src="./paz2_r2.png" alt="noimg">
+    </div> <br>
+    <h1 style="text-align: center; font-size: 50px;">What's the answer to the riddle?</h1> <br>
+    <div class="con2">
+        <a href="./paz2_wrong_ans.html">Tree</a>
+        <a href="./paz2_wrong_ans.html">Human</a>
+        <a href="./paz3.html">Candle</a>
+        <a href="./paz2_wrong_ans.html">Mushroom</a>
+    </div>
+</body>
+</html>

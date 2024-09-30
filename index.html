@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 2;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            position: relative;
+            display: flex;
+            height: 100px;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 3px solid black;
+            background-color: green;
+        }
+        .head h1{
+            color: lightblue;
+        }
+        .nav{
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+        .nav .mat{
+            border: 3px solid black;
+            padding: 4px;
+            border-radius: 15px;
+            background-color: lightblue;
+            height: 50px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            width: 150px;
+            color: black;
+        }
+        #log{
+            list-style: none;
+            position: absolute;
+            right: 8px;
+            bottom: 0;
+            background-color: white;
+            border: 1px solid black;
+
+        }
+        .cen{
+            position: relative;
+            top: 10px;
+            height: 150px;
+            width: 100%;
+            border: 3px solid black;
+            background-image: url('./binary.jpg');
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cen #center{
+            height: 50px;
+            width: 50%;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .con{
+            position: relative;
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .wel{
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            padding: 40px;
+            text-align: justify;
+        }
+        .foot{
+            height: 60px;
+            width: 100%;
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            color: lightblue;
+        }
+        .foot:hover{
+            cursor: pointer;
+            color: white;
+            background-color: orange;
+        }
+        .nav .mat:hover{
+            cursor: pointer;
+            color: white;
+            background-color: orange;
+        }
+        a:link{
+            text-decoration: none;
+        } 
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 style="font-family: algerian;">ESCAPE FROM TECH</h1>
+        <div class="nav">
+            <a href="./index.html" class="mat"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="./info.html" class="mat" target="_self"><i class="fa-solid fa-circle-info"></i>Information</a>
+            <a href="./search.html" class="mat"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+        </div>
+        <ul id="log">
+            <li><a href="">sign in</a></li>
+        </ul>
+    </div>
+    <div class="cen">
+        <h1 id="center" style="font-family: algerian;">ESCAPE FROM TECH</h1>
+    </div>
+    <div class="con">
+        <p class="wel">Welcome to the Escape From Technology escape room! You'll have to solve mysteries, chose your own adventure, and escape the world in which you will be trapped in. To escape this room it will require wits, 
+            problem solving and noticing clues you wouldn't think off. You will take the name of Ryan so that the story will be easier to catch on. My name is Sourish. I'm grade 7 and I live in canda and this is my 
+            submission for Code Olympic 2022. Without wasting more time, start the story!</p> 
+        <img src="./Brain_Puzzle.png" alt="">
+    </div>
+    <br>
+    <a href="./paz1.html" class="foot"><h1>LETS GO..</h1></a>
+    
+</body>
+</html>
